@@ -73,7 +73,8 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-full:hover,
@@ -181,8 +182,11 @@ ol {
 }
 
 .footer-discr {
-    font-weight: 400;
-    color: #f4f4fd;
+    line-height: 1.5;
+        color: #f4f4fd;
+        letter-spacing: 0.02em;
+        max-width: 264px;
+        margin-bottom: 8px;
 
 }
 
@@ -206,6 +210,7 @@ ol {
 
 .footer-all {
     background-color: #2e2f42;
+    padding: 100px 0;
 
 }
 
@@ -226,8 +231,9 @@ ol {
 
 .container {
     max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 
 }
 
@@ -498,6 +504,7 @@ footer .container {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
 .social-links {
@@ -639,4 +646,8 @@ footer .container {
 }
 .social-links-media-item:focus {
     background-color: #31d0aa;
+}
+.div-footer {
+    display: flex;
+    align-items: baseline;
 }
