@@ -502,15 +502,14 @@ footer .container {
 
 .social-links {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 
 }
 
 .social-links-media {
     width: 40px;
     height: 40px;
-    display: inline-block;
-    margin-right: 15px;
+   
 }
 
 .social-links-media-item {
@@ -518,7 +517,7 @@ footer .container {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
