@@ -211,6 +211,7 @@ ol {
 .footer-all {
     background-color: #2e2f42;
     padding: 100px 0;
+   
 
 }
 
@@ -489,6 +490,9 @@ header {
 footer .container {
     display: flex;
     align-items: baseline;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .footer-logo {
@@ -507,6 +511,8 @@ footer .container {
 }
 
 .social-links {
+    list-style: none;
+    padding: 0;
     display: flex;
     gap: 16px;
 
@@ -515,6 +521,7 @@ footer .container {
 .social-links-media {
     width: 40px;
     height: 40px;
+    display: inline-block;
    
 }
 
@@ -539,6 +546,8 @@ footer .container {
 
 .footer-icon {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .sect-second-icon {
@@ -650,7 +659,9 @@ footer .container {
 .social-links-media-item:focus {
     background-color: #31d0aa;
 }
-.div-footer {
+.footer-social {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
 }
+
+
